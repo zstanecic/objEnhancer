@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the objEnhancer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: objEnhancer 2021.1\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2021-08-07 17:34+0200\n"
+"PO-Revision-Date: 2021-08-07 20:05+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: hr\n"
+
+#: addon/globalPlugins/objEnhancer/__init__.py:31
+msgid "Obj Enhancer"
+msgstr "Obj Enhancer"
+
+#: addon/globalPlugins/objEnhancer/__init__.py:110
+msgid "Customize the properties of the navigator object"
+msgstr "Prilagodba svojstava objekta navigatora"
+
+#. Translators: Reported when the user tries to perform a command related to the navigator object
+#. but there is no current navigator object.
+#: addon/globalPlugins/objEnhancer/__init__.py:118
+msgid "No navigator object"
+msgstr "Nema objekta navigatora"
+
+#: addon/globalPlugins/objEnhancer/__init__.py:139
+msgid "Open the Object Enhancer definitions dialog"
+msgstr "Otvaranje dijaloškog okvira Definicije pojačivača objekata"
+
+#: addon/globalPlugins/objEnhancer/__init__.py:146
+msgid ""
+"Copies the base64 encoded SHA1 hash of the bitmap of the navigator object to "
+"the clipboard"
+msgstr "Kopira osnovni SHA1 hash bitmapa objekta navigatora u međuspremnik"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:51
+msgid "&Relevant object attributes:"
+msgstr "Atributi &relevantnog objekta:"
+
+#. Translators: The label for a column in input list used to identify an entry.
+#. Translators: The label for a column in output list used to identify an entry.
+#: addon/globalPlugins/objEnhancer/dialogs.py:60
+#: addon/globalPlugins/objEnhancer/dialogs.py:208
+#: addon/globalPlugins/objEnhancer/dialogs.py:383
+msgid "Attribute"
+msgstr "Atribut"
+
+#. Translators: The label for a column in input list used to identify an item's value.
+#. Translators: The label for a column in input list used to identify an entry.
+#. Translators: The label for a column in input list used to identify an item's value.
+#. Translators: The label for a column in output list used to identify an item's value.
+#: addon/globalPlugins/objEnhancer/dialogs.py:62
+#: addon/globalPlugins/objEnhancer/dialogs.py:115
+#: addon/globalPlugins/objEnhancer/dialogs.py:210
+#: addon/globalPlugins/objEnhancer/dialogs.py:385
+msgid "Value"
+msgstr "Vrijednost"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:67
+msgid "A&ttribute:"
+msgstr "A&tribut:"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:70
+#: addon/globalPlugins/objEnhancer/dialogs.py:118
+msgid "&Value:"
+msgstr "&Vrijednost:"
+
+#. Translators: The label for a button to add a new entry.
+#: addon/globalPlugins/objEnhancer/dialogs.py:125
+#: addon/globalPlugins/objEnhancer/dialogs.py:218
+#: addon/globalPlugins/objEnhancer/dialogs.py:417
+#: addon/globalPlugins/objEnhancer/dialogs.py:687
+msgid "&Add"
+msgstr "&Dodaj"
+
+#. Translators: The label for a button to remove an entry.
+#: addon/globalPlugins/objEnhancer/dialogs.py:127
+#: addon/globalPlugins/objEnhancer/dialogs.py:223
+#: addon/globalPlugins/objEnhancer/dialogs.py:419
+#: addon/globalPlugins/objEnhancer/dialogs.py:692
+msgid "Re&move"
+msgstr "U&kloni"
+
+#. Translators: The label for input list.
+#: addon/globalPlugins/objEnhancer/dialogs.py:199
+msgid "&Filter criteria:"
+msgstr "Kriteriji & filtriranja:"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:211
+msgid "Parameters"
+msgstr "Parametri"
+
+#. Translators: The label for a button to edit a new entry.
+#: addon/globalPlugins/objEnhancer/dialogs.py:220
+#: addon/globalPlugins/objEnhancer/dialogs.py:689
+msgid "&Edit"
+msgstr "&Uredi"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:262
+msgid "Add filter attribute"
+msgstr "Dodavanje atributa filtra"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:279
+msgid "Attribute {newAttr!r} is already added."
+msgstr "{newAttr!r} atributa već je dodan."
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:280
+#: addon/globalPlugins/objEnhancer/dialogs.py:309
+#: addon/globalPlugins/objEnhancer/dialogs.py:469
+#: addon/globalPlugins/objEnhancer/dialogs.py:625
+#: addon/globalPlugins/objEnhancer/dialogs.py:633
+msgid "Error"
+msgstr "Pogreška"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:299
+#, python-brace-format
+msgid "Filter values for {attr}"
+msgstr "Filtriranje vrijednosti za {attr}"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:308
+msgid "No values specified."
+msgstr "Nisu navedene vrijednosti."
+
+#. Translators: This is the label for the edit field.
+#: addon/globalPlugins/objEnhancer/dialogs.py:340
+msgid "&Attribute:"
+msgstr "&Atribut:"
+
+#. Translators: The label for output list.
+#: addon/globalPlugins/objEnhancer/dialogs.py:373
+msgid "&Attribute changes:"
+msgstr "Promjene atributa &"
+
+#. Translators: The label for the group of controls to change an item.
+#: addon/globalPlugins/objEnhancer/dialogs.py:389
+msgid "Change output value"
+msgstr "Promjena izlazne vrijednosti"
+
+#. Translators: The label for the edit field to change the attribute of an item.
+#: addon/globalPlugins/objEnhancer/dialogs.py:397
+msgid "Output &attribute:"
+msgstr "Izlazni atribut:"
+
+#. Translators: The label for the edit field to change the value of a criterium.
+#: addon/globalPlugins/objEnhancer/dialogs.py:405
+msgid "Output &value:"
+msgstr "Izlazna & vrijednost:"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:456
+msgid "Add output attribute"
+msgstr "Dodavanje izlaznog atributa"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:468
+msgid "Attribute {newAttr!r} is already present."
+msgstr "{newAttr!r} atributa već je prisutan."
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:520
+#, python-brace-format
+msgid "Editing definition ({name})"
+msgstr "Uređivanje definicije ({name})"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:524
+msgid "New definition"
+msgstr "Nova definicija"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:533
+msgid "Definition &name:"
+msgstr "Naziv &definicije:"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:554
+msgid "&Inherrit settings from definition:"
+msgstr "Postavke &koje proizlaze iz definicije:"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:556
+msgid "None"
+msgstr "Nema"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:572
+msgid "&Definition is abstract, don't use it directly"
+msgstr "Definicija je apstraktna, nemojte je izravno koristiti"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:580
+msgid "&Treat object location criteria as absolute screen coordinates"
+msgstr "&Tretiraj kriterije mjesta objekta kao apsolutne koordinate zaslona"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:588
+msgid "&Definition error handling:"
+msgstr "Rukovanje pogreškama u definiciji:"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:624
+msgid "You must enter a valid name"
+msgstr "Morate unijeti valjani naziv"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:632
+msgid "You must add valid input criteria"
+msgstr "Morate dodati valjane kriterije unosa"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:671
+msgid "&Available definitions:"
+msgstr "Dostupne definicije:"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:680
+msgid "Identifier"
+msgstr "Identifikator"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:681
+msgid "Input"
+msgstr "Unos"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:682
+msgid "Output"
+msgstr "Izlaz"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:774
+msgid "Object Enhancer Definitions"
+msgstr "Definicije Object enhancera"
+
+#: addon/globalPlugins/objEnhancer/dialogs.py:787
+msgid "&Applications:"
+msgstr "& aplikacije:"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:24
+msgid "Object Enhancer"
+msgstr "Object Enhancer"
+
+#. Add-on description: can span multiple lines with """ syntax """
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:27
+msgid "Changing NVDA object properties made easy"
+msgstr "Jednostavna promjena svojstava NVDA objekta"
